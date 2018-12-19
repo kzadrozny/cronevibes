@@ -183,6 +183,11 @@
   color: #fff;
 }
 
+.about-section .container {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 2em 1em;
+}
+
 .projects-section {
   padding: 5rem 0;
 }
