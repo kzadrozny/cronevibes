@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.2 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -209,9 +209,6 @@
 }
 
 @media (min-width: 992px) {
-  .projects-section .project-text {
-    padding: 5rem;
-  }
   .projects-section .project-text hr {
     border-color: #64a19d;
     border-width: .25rem;
