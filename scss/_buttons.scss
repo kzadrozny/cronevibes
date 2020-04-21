@@ -10,6 +10,7 @@
 
 .btn-primary {
   background-color: $primary;
+  padding: 0.75rem 1rem;
   &:hover {
     background-color: darken($primary, 10%);
   }

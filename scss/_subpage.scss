@@ -1,0 +1,34 @@
+body.subpage {
+  .masthead {
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/masthead_subpages.jpg");
+  }
+
+  .h1 {
+    font-family: $main-font;
+    font-size: 5.5rem;
+    line-height: 5.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+
+  h2 {
+    text-align: left;
+    padding-bottom: 0.25rem;
+  }
+
+  .notes {
+    font-size: 80%;
+    padding-top: 2em;
+    h3 {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+  }
+
+  .about-section {
+    margin-top: 2rem;
+    background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bg-contact.jpg');
+  }
+}

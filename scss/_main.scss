@@ -1,0 +1,191 @@
+/*
+ * Global
+ * --------------------------------------------------
+ */
+
+body {
+  font-family: $body-font;
+  letter-spacing: 0.0625em;
+}
+
+h2  {
+  color: darken($primary, 10%);
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+a {
+  color: $primary;
+  &:focus,
+  &:hover {
+    text-decoration: none;
+    color: darken($primary, 20%);
+  }
+}
+
+section {
+  padding: 5rem 0 0;
+}
+
+.bg-primary {
+  background-color: $primary !important;
+}
+
+.text-primary {
+    color: $primary !important;
+}
+
+.accent-font {
+  color: darken($accent, 10%);
+  font-size:1.2rem;
+  font-style: italic;
+  display: block;
+  margin-top: 0.5rem;
+  margin-left: 0.5rem;
+}
+
+.pull-quote {
+  padding-left: 1rem;
+  border-left: 0.5rem solid lighten($primary, 25%);
+  margin-bottom: 1.5em;
+  margin-left: 1em;
+}
+
+
+
+/*
+ * Ritual Section
+ * --------------------------------------------------
+ */
+
+.projects-section {
+  .project {
+    background-color: darken($accent, 15%);
+    height: 100%;
+  }
+  a {
+    color: #eee;
+  }
+  h3 {
+    color: white;
+  }
+  .text-wrapper {
+    padding: 3rem;
+    font-size: 90%;
+    width: 100%;
+    p {
+      color: white;
+      font-size: 90%;
+    }
+    hr {
+      border-color: $accent;
+      border-width: .25rem;
+      width: 30%;
+    }
+  }
+}
+
+
+/*
+ * Books Section
+ * --------------------------------------------------
+ */
+
+.books-section {
+  font-size: 90%;
+  h3 {
+    font-size: 1.5rem;
+  }
+  .text-wrapper {
+    padding: 1rem;
+    @media (min-width: 992px) {
+      padding: 1rem 0 1rem 2rem;
+      border-left: 0.5rem solid $primary;
+      hr {
+        border-color: $primary;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
+  }
+  select.form-control {
+    @media (min-width: 992px) {
+      width: 50%;
+    }
+  }
+}
+
+
+/*
+ * About
+ * --------------------------------------------------
+ */
+
+.about-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bg-contact.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  p {
+    color: $white;
+  }
+  .container {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 2em 1em;
+  }
+}
+
+/*
+ * Contact
+ * --------------------------------------------------
+ */
+
+.contact-section {
+  padding: 5rem 0 0;
+  background-color: $black;
+  .card {
+    border: 0;
+    border-bottom: 0.25rem solid $primary;
+    h4 {
+      font-size: 0.8rem;
+      font-family: $main-font;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+    }
+    hr {
+      border-color: $primary;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
+  }
+  .social {
+    margin-top: 5rem;
+    a {
+      text-align: center;
+      height: 3rem;
+      width: 3rem;
+      background: fade-out($white, 0.9);
+      border-radius: 100%;
+      line-height: 3rem;
+      color: fade-out($white, 0.7);
+      &:hover {
+        color: fade-out($white, 0.5);
+      }
+      &:active {
+        color: $white;
+      }
+    }
+  }
+}
+
+/*
+ * Footer
+ * --------------------------------------------------
+ */
+
+footer {
+  padding: 5rem 0;
+  background-color: $black;
+}
