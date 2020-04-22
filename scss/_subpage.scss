@@ -31,4 +31,11 @@ body.subpage {
     margin-top: 2rem;
     background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bg-contact.jpg');
   }
+
+  section#about {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
 }
