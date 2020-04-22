@@ -2,49 +2,7 @@
 @import 'mixins.scss';
 @import 'navbar.scss';
 @import 'masthead.scss';
+@import 'subpage.scss';
 @import 'buttons.scss';
-@import 'about.scss';
-@import 'projects.scss';
-// @import 'signup.scss';
+@import 'main.scss';
 @import 'contact.scss';
-
-body {
-  font-family: $body-font;
-  letter-spacing: 0.0625em;
-}
-
-h2  {
-  color: $primary;
-  padding-bottom: 1em;
-  text-align: center;
-}
-
-a {
-  color: $primary;
-  &:focus,
-  &:hover {
-    text-decoration: none;
-    color: darken($primary, 20%);
-  }
-}
-
-.bg-black {
-  background-color: $black !important;
-}
-
-.bg-primary {
-  background-color: $primary !important;
-}
-
-.btn-primary {
-  padding: 0.75rem 2rem;
-  margin-top: 1em;
-}
-
-.text-primary {
-  color: $primary !important;
-}
-
-footer {
-  padding: 5rem 0;
-}
