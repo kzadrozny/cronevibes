@@ -268,6 +268,13 @@ section {
   margin-left: 1em;
 }
 
+.subpage section.main {
+  padding-bottom: 5em;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /*
  * Ritual Section
  * --------------------------------------------------
@@ -341,22 +348,49 @@ section {
  * --------------------------------------------------
  */
 .about-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-contact.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-contact.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
+  padding: 2rem 0 5rem 0;
 }
 
-.about-section p {
-  color: #fff;
+.about-section h2 {
+  color: black;
+  text-align: left;
+  padding-bottom: 0.5em;
+  margin-bottom: 0;
 }
 
-.about-section .container {
-  background: rgba(0, 0, 0, 0.6);
-  padding: 2em 1em;
+.about-section .profile-photo {
+  background-color: #b3d1cf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about-section .profile-photo img {
+  -o-object-fit: cover;
+  object-fit: cover;
+  min-height: 100%;
+}
+
+.about-section .project {
+  background-color: #b3d1cf;
+  height: 100%;
+}
+
+.about-section .project .text-wrapper {
+  padding: 3rem;
+  width: 100%;
+}
+
+.about-section .project .text-wrapper hr {
+  border-color: #5b415c;
+  border-width: .25rem;
+  width: 30%;
 }
 
 /*
@@ -419,6 +453,12 @@ footer {
 
 .contact-section {
   padding: 5rem 0 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-contact.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-contact.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
 }
 
 .contact-section .card {

@@ -51,7 +51,12 @@ section {
   margin-left: 1em;
 }
 
-
+.subpage section.main { // for child pages
+  padding-bottom: 5em;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*
  * Ritual Section
@@ -122,18 +127,35 @@ section {
  */
 
 .about-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, #{fade-out($black, .9)} 0%,#{fade-out($black, .5)} 75%,$black 100%), url('../img/bg-contact.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-size: cover;
-  p {
-    color: $white;
+  padding: 2rem 0 5rem 0;
+  h2 {
+    color: black;
+    text-align: left;
+    padding-bottom: 0.5em;
+    margin-bottom: 0;
   }
-  .container {
-    background: rgba(0, 0, 0, 0.6);
-    padding: 2em 1em;
+  .profile-photo {
+    background-color: lighten($primary, 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      object-fit: cover;
+      min-height: 100%;
+    }
+  }
+  .project {
+    background-color: lighten($primary, 25%);
+    height: 100%;
+      .text-wrapper {
+      padding: 3rem;
+      width: 100%;
+      hr {
+        border-color: $accent;
+        border-width: .25rem;
+        width: 30%;
+      }
+    }
   }
 }
 
