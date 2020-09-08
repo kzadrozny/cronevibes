@@ -343,6 +343,34 @@ section {
   }
 }
 
+.duo {
+  margin-bottom: 2rem;
+}
+
+.duo .duo-image {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.duo .duo-image img {
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.duo .duo-image.feature {
+  max-height: 450px;
+}
+
+.duo .text-wrapper {
+  padding-right: 3rem;
+}
+
+@media (min-width: 992px) {
+  .duo {
+    margin-bottom: 0;
+  }
+}
+
 /*
  * About
  * --------------------------------------------------

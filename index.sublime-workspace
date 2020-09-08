@@ -1,0 +1,445 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"marg",
+				"margin-bottom\tproperty"
+			],
+			[
+				"border",
+				"border-left\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"padding",
+				"padding-top\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"gr",
+				"grid-column\tproperty"
+			],
+			[
+				"fon",
+				"font-style\tproperty"
+			],
+			[
+				"text-a",
+				"text-align\tproperty"
+			],
+			[
+				"paddin",
+				"padding-left\tproperty"
+			],
+			[
+				"gri",
+				"grid-gap\tproperty"
+			],
+			[
+				"max",
+				"max-height\tproperty"
+			],
+			[
+				"max-",
+				"max-height\tproperty"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"padd",
+				"padding-bottom\tproperty"
+			],
+			[
+				"i",
+				"italic\tfont-style"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"paddi",
+				"padding-top\tproperty"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"text",
+				"text-decoration\tproperty"
+			],
+			[
+				"mar",
+				"margin-bottom\tproperty"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"align",
+				"align-self\tproperty"
+			],
+			[
+				"object",
+				"object-position\tproperty"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"ali",
+				"text-align"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"main",
+				"main-font"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 179.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"box",
+				"Boxy Theme: Preferences"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: List Unmanaged Packages"
+			]
+		],
+		"width": 348.0
+	},
+	"console":
+	{
+		"height": 134.0,
+		"history":
+		[
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Kathy/Documents/murdershedrank/index.html",
+		"/Users/Kathy/Desktop/SFisher-rec",
+		"/Users/Kathy/Desktop/PermissionPublish.json",
+		"/Users/Kathy/Desktop/delete.html",
+		"/Users/Kathy/Documents/Kathy-Design/letterwriters/CNAME",
+		"/Users/Kathy/Documents/Kathy-Design/letterwriters/index.html",
+		"/Users/Kathy/get-pip.py",
+		"/Users/Kathy/Documents/Kathy-Design/m-notes",
+		"/Users/Kathy/Documents/_LWA/letterwriters/index.html",
+		"/Users/Kathy/Documents/_LWA/letterwriters/src/scss/styles.scss",
+		"/Users/Kathy/Documents/_LWA/letterwriters/pen-pal-policy.html",
+		"/Users/Kathy/Documents/cronevibes/scss/_main.scss",
+		"/Users/Kathy/Documents/cronevibes/index.html",
+		"/Users/Kathy/Documents/cronevibes/grounding.html",
+		"/Users/Kathy/Documents/cronevibes/beltane.html",
+		"/Users/Kathy/Documents/cronevibes/scss/_contact.scss",
+		"/Users/Kathy/Documents/cronevibes/scss/grayscale.scss",
+		"/Users/Kathy/Documents/cronevibes/scss/_about.scss",
+		"/Users/Kathy/Documents/murdershedrank/css/styles.css",
+		"/Users/Kathy/Documents/murdershedrank/README.md",
+		"/Users/Kathy/Documents/design-site/src/scss/styles.scss",
+		"/Users/Kathy/Documents/murdershedrank/CNAME",
+		"/Users/Kathy/Documents/Kathy-Design/donovanbeeson/index.html",
+		"/Users/Kathy/Documents/design-site/index.html",
+		"/Users/Kathy/Desktop/startbootstrap-small-business-gh-pages/README.md",
+		"/Users/Kathy/Documents/_LWA/letterwriters/package.json",
+		"/Users/Kathy/Desktop/guides-homepage-backup.html",
+		"/Users/Kathy/Desktop/Untitled.vncloc",
+		"/Users/Kathy/Box/Library_Shared-Box-Folders/All Staff/Stock_Illustrations/BlackIllustrations.com - Illustrations/Black Illustrations - Office : Life Pack/Black Man : Black Woman Using Laptop/SVG/Black Man : Black Woman Using Laptop C.svg",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/styles.scss",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/index.html",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/about.html",
+		"/Users/Kathy/Documents/cronevibes/scss/_subpage.scss",
+		"/Users/Kathy/Documents/cronevibes/package.json",
+		"/Users/Kathy/Documents/cronevibes/scss/_buttons.scss",
+		"/Users/Kathy/Documents/design-site/p-BMRC.html",
+		"/Users/Kathy/Documents/cronevibes/navigation.html",
+		"/Users/Kathy/Documents/cronevibes/js/header-include.js",
+		"/Users/Kathy/Documents/cronevibes/README.md",
+		"/Users/Kathy/Documents/design-site/navigation.html",
+		"/Users/Kathy/Documents/design-site/head.html",
+		"/Users/Kathy/Documents/cronevibes/scss/_masthead.scss",
+		"/Users/Kathy/Documents/cronevibes/scss/_variables.scss",
+		"/Users/Kathy/Documents/cronevibes/node_modules/browser-sync/client/dist/index.js",
+		"/Users/Kathy/Documents/cronevibes/scss/_navbar.scss",
+		"/Users/Kathy/Documents/cronevibes/scss/_projects.scss",
+		"/Users/Kathy/Documents/cronevibes/css/grayscale.css",
+		"/Users/Kathy/Desktop/item-record.less",
+		"/Users/Kathy/Documents/design-site/p-uclibcatalog.html",
+		"/Users/Kathy/Documents/design-site/p-wayfinding.html",
+		"/Users/Kathy/Documents/design-site/p-UCCollex.html",
+		"/Users/Kathy/Documents/design-site/p-uclibweb.html",
+		"/Users/Kathy/Documents/cronevibes/gulpfile.js",
+		"/Users/Kathy/Documents/kzadrozny.github.io/README.md",
+		"/Users/Kathy/Documents/kzadrozny.github.io/stylesheets/styles.css",
+		"/Users/Kathy/Documents/kzadrozny.github.io/index.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/.gitignore",
+		"/Users/Kathy/.ssh/known_hosts",
+		"/Users/Kathy/Documents/design-site/p-thegreatescape.html",
+		"/Users/Kathy/Documents/design-site/p-ICE.html",
+		"/Users/Kathy/Documents/design-site/p-unionmission.html",
+		"/Users/Kathy/Documents/design-site/dist/css/beer-slider.css",
+		"/Users/Kathy/Documents/design-site/js/header-include.js",
+		"/Users/Kathy/Documents/design-site/p-BMRC-report.html",
+		"/Users/Kathy/Documents/DLDC/LibPattern/dma-item.html",
+		"/Users/Kathy/Documents/DLDC/LibPattern/index.html",
+		"/Users/Kathy/Documents/DLDC/LibPattern/dma-search.html",
+		"/Users/Kathy/Documents/DLDC/LibPattern/dma-collection.html",
+		"/Users/Kathy/Documents/DLDC/LibPattern/_Loop/index.html",
+		"/Users/Kathy/Documents/DLDC/LibPattern/scss/news.scss",
+		"/Users/Kathy/Documents/DLDC/uchicago-library.github.io/bmrc-mocks/index.html",
+		"/Users/Kathy/Documents/DLDC/uchicago-library.github.io/bmrc-mocks/scss/style.scss",
+		"/Users/Kathy/Documents/DLDC/uchicago-library.github.io/bmrc-mocks/scss/nav.scss",
+		"/Users/Kathy/Documents/DLDC/uchicago-library.github.io/bmrc-mocks/scss/_media.scss",
+		"/Users/Kathy/Documents/Kathy-Design/donovanbeeson/node_modules/cheerio/node_modules/lodash/internal/baseCreate.js",
+		"/Users/Kathy/Documents/design-site/README.md",
+		"/Users/Kathy/Documents/kzadrozny.github.io/src/scss/styles.scss",
+		"/Users/Kathy/Documents/kzadrozny.github.io/navigation.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/src/scss/_media.scss",
+		"/Users/Kathy/Documents/kzadrozny.github.io/src/scss/_nav.scss",
+		"/Users/Kathy/Downloads/responsive-sass-nav/index.htm",
+		"/Users/Kathy/Downloads/responsive-sass-nav/scss/style.scss",
+		"/Users/Kathy/Documents/kzadrozny.github.io/p-uclibweb.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/p-uclibcatalog.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/p-UCCollex.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/p-BMRC.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/p-unionmission.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/p-thegreatescape.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/p-ICE.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/gulpfile.js",
+		"/Users/Kathy/Documents/kzadrozny.github.io/src/scss/image-compare_style.scss",
+		"/Users/Kathy/Documents/kzadrozny.github.io/package.json",
+		"/Users/Kathy/Documents/kzadrozny.github.io/params.json",
+		"/Users/Kathy/Documents/kzadrozny.github.io/js/header-include.js",
+		"/Users/Kathy/Documents/Kathy-Design/donovanbeeson/scss/styles.scss",
+		"/Users/Kathy/Documents/_LWA/website/p-press.html",
+		"/Users/Kathy/Documents/kzadrozny.github.io/indexX.html",
+		"/Users/Kathy/Documents/Kathy-Design/ilya/ilya/index.html",
+		"/Users/Kathy/Documents/Kathy-Design/donovanbeeson/README.md",
+		"/Users/Kathy/Desktop/Save/README.md",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/_social.scss",
+		"/Users/Kathy/Documents/Kathy-Design/ilya/ilya/scss/style.scss",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/privacy.html",
+		"/Users/Kathy/Documents/Kathy-Design/donovanbeeson/scss/_base.scss",
+		"/Users/Kathy/Documents/Kathy-Design/donovanbeeson/scss/style.scss",
+		"/Users/Kathy/Documents/Kathy-Design/donovanbeeson/CNAME",
+		"/Users/Kathy/Documents/materia-medica/Balms.md",
+		"/Users/Kathy/Documents/materia-medica/Food.md",
+		"/Users/Kathy/Documents/materia-medica/Infusions.md",
+		"/Users/Kathy/Desktop/index.html",
+		"/Users/Kathy/Documents/materia-medica/SUMMARY.md",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/node_modules/vide/package.js",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/_variables.scss",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/_masthead.scss",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/_mixins.scss",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/_global.scss",
+		"/Users/Kathy/Downloads/ButtonStylesInspiration/index.html",
+		"/Users/Kathy/Downloads/ButtonStylesInspiration/css/buttons.css",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/about.scss",
+		"/Users/Kathy/Downloads/PageTransitions/css/animations.css",
+		"/Users/Kathy/Downloads/PageTransitions/index.html",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/js/coming-soon.js",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/coming-soon.scss",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/gulpfile.js",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/scss/_bootstrap-overrides.scss",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/.gitignore",
+		"/Users/Kathy/Documents/Kathy-Design/pati-froyo/README.md",
+		"/Users/Kathy/Documents/materia-medica/Symptoms.md"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

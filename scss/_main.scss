@@ -120,6 +120,26 @@ section {
   }
 }
 
+.duo {
+  margin-bottom: 2rem;
+  .duo-image {
+    max-height: 300px;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+    }
+    &.feature {
+      max-height: 450px;
+    }
+  }
+  .text-wrapper {
+    padding-right: 3rem;
+  }
+  @media (min-width: 992px) {
+    margin-bottom: 0;
+  }
+}
+
 
 /*
  * About
