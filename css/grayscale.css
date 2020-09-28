@@ -220,6 +220,17 @@ body.subpage section#about {
  * Global
  * --------------------------------------------------
  */
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
 body {
   font-family: "ABeeZee", sans-serif;
   letter-spacing: 0.0625em;
@@ -477,6 +488,35 @@ section {
 footer {
   padding: 5rem 0;
   background-color: #161616;
+}
+
+/*
+ * Insta
+ * --------------------------------------------------
+ */
+body.insta .logo {
+  display: block;
+  max-width: 125px;
+  padding-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.insta .btn {
+  font-size: 1.1rem;
+  margin-bottom: 1em;
+  background-color: #3f6865;
+}
+
+body.insta h2 {
+  font-size: 1.5rem;
+  padding-top: 1em;
+  padding-bottom: 0;
+}
+
+body.insta .about {
+  max-width: 150px;
+  margin-right: 1em;
 }
 
 .contact-section {

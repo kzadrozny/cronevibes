@@ -3,6 +3,16 @@
  * --------------------------------------------------
  */
 
+ .sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0); 
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap; 
+  width: 1px;
+}
+
 body {
   font-family: $body-font;
   letter-spacing: 0.0625em;
@@ -230,4 +240,33 @@ section {
 footer {
   padding: 5rem 0;
   background-color: $black;
+}
+
+/*
+ * Insta
+ * --------------------------------------------------
+ */
+
+body.insta {
+  .logo {
+    display: block;
+    max-width: 125px;
+    padding-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn {
+    font-size: 1.1rem;
+    margin-bottom: 1em;
+    background-color: #3f6865;
+  }
+  h2 {
+    font-size: 1.5rem;
+    padding-top: 1em;
+    padding-bottom: 0;
+  }
+  .about {
+    max-width: 150px;
+    margin-right: 1em;
+  }
 }
