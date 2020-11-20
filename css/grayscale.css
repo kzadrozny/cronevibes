@@ -503,9 +503,26 @@ body.insta .logo {
 }
 
 body.insta .btn {
-  font-size: 1.1rem;
+  color: white;
   margin-bottom: 1em;
+}
+
+body.insta .btn-mid {
+  font-size: 1.1rem;
   background-color: #3f6865;
+}
+
+body.insta .btn-mid:hover {
+  background-color: #4f837f;
+}
+
+body.insta .btn-mid:focus {
+  background-color: #4f837f;
+  color: white;
+}
+
+body.insta .btn-mid:active {
+  background-color: #467370 !important;
 }
 
 body.insta h2 {

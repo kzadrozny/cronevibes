@@ -256,9 +256,22 @@ body.insta {
     margin-right: auto;
   }
   .btn {
-    font-size: 1.1rem;
+    color: white;
     margin-bottom: 1em;
+  }
+  .btn-mid {
+    font-size: 1.1rem;
     background-color: #3f6865;
+    &:hover {
+    background-color: darken($primary, 10%);
+  }
+  &:focus {
+    background-color: darken($primary, 10%);
+    color: white;
+  }
+  &:active {
+    background-color: darken($primary, 15%) !important;
+  }
   }
   h2 {
     font-size: 1.5rem;
