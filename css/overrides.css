@@ -2,6 +2,10 @@
     padding: 0 0 0 2rem;
     border-left: 0.5rem solid #64a19d;
 }
+.featured-text-right {
+    padding: 0 2rem 0 0 ;
+    border-right: 0.5rem solid #64a19d;
+}
 a {
     color: #3c6360;
 }
@@ -46,6 +50,12 @@ ul.plain-list {
 }
 .about-section a:hover, .about-section a:focus {
     color: #6b546c;
+}
+
+.about-section .profile-photo img {
+  -o-object-fit: unset;
+  object-fit: unset;
+  min-height: unset;
 }
 
 
