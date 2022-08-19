@@ -64,7 +64,7 @@ a:hover {
     margin-bottom: 3em;
 }
 
-.subpage a {
+.subpage a:not(#mainNav a, #contact a) {
     color:  #dec4bd;
     text-decoration: underline;
 }
