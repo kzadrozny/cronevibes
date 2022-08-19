@@ -1,63 +1,264 @@
-.featured-text {
-    padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+/*Base color ranges
+green 3d4435
+pink d0aca2*/
+
+
+/* Global */
+
+body {
+   background-color: #3d4435; 
 }
-.featured-text-right {
-    padding: 0 2rem 0 0 ;
-    border-right: 0.5rem solid #64a19d;
-}
+
 a {
-    color: #3c6360;
+    color: #304f4c;
 }
-p a {
+
+a:hover {
     text-decoration: underline;
 }
-.btn-primary {
-    background-color: #3c6360;
+
+
+/* Navbar */
+
+#mainNav.navbar-shrink, #mainNav {
+  background-color: #bb9a91;
+  background-image: inherit;
 }
-ul.plain-list {
-    list-style: none;
-    padding-left: 1.3em;
+
+#mainNav.navbar-shrink .nav-link:hover {
+  color: #3d4435;
 }
-.plain-list li {
-    padding-left: 0.25em;
-    text-indent: -1.5em;
+
+#mainNav .navbar-toggler {
+    color: #3d4435;
+    border: 1px solid #3d4435;
 }
-.about-section h3 {
-    font-size: 1.5rem;
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    #mainNav.navbar-shrink .nav-link {
+      padding: 1rem 1.5rem 1rem;
+    }
+     #mainNav.navbar-shrink .nav-link.active {
+      color: #3d4435;
+      outline: 0;
+      border-bottom: .25rem solid #3d4435;
+    }
 }
-.highlight {
-    font-weight: 600;
+
+
+/* Intro section */
+
+#intro {
+    margin-top: 7em;
 }
-.footer-links a {
-    color: white;
+
+#intro p {
+    padding-top: 1em;
 }
+
 
 /* Subpages */
 
 .subpage #headernav {
-	margin-bottom: 3em;
+    margin-bottom: 3em;
+}
+
+.subpage a {
+    color:  #dec4bd;
+    text-decoration: underline;
+}
+
+
+/* Text and Fonts */
+
+p a {
+    text-decoration: underline;
+}
+
+h2, .subpage h1 {
+    color: #dec4bd;
+}
+
+h3 {
+    color: #dec4bd;
+    font-size: 1.3rem;
+    font-family: Philosopher,sans-serif;
+}
+
+p, ul {
+   color: #c2c8cc; 
+}
+
+.featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #d0aca2;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) {
+    .featured-text-right {
+        padding: 0 2rem 0 0 ;
+        border-right: 0.5rem solid #d0aca2;
+    }
+}
+
+.no-edge {
+    border-right: none;
+    border-left: none;
+}
+
+ul.plain-list {
+    list-style: none;
+    padding-left: 1.3em;
+}
+
+.plain-list li {
+    padding-left: 0.25em;
+    text-indent: -1.5em;
+}
+
+.highlight {
+    font-weight: 600;
+}
+
+
+
+/* Sections */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) { 
+    section {
+        padding: 2em 0;
+    }
+}
+
+section + section {
+  padding: 2em 0;
+}
+
+section hr {
+  border-color: #3d4435;
+  border-width: .25rem;
+  width: 30%;
+}
+
+section.light {
+    background-color: #e2cdc7;
+}
+
+section.light h2, section.light h3 {
+    color: #3d4435;
+}
+
+section.light p, section.light ul {
+    color: #000;
+}
+
+
+/* Images */
+
+img.arch {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom: 0.5rem solid #bb9a91;
+    max-height: 400px;
+}
+
+.trio-image img {
+  height: 350px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border-bottom: 0.5rem solid #bb9a91;
+}
+
+.img-cert {
+    max-height: 75px;
+    display: inline-block;
+    padding-right: 1em; 
+}
+
+.profile-photo img {
+    max-height: 300px;
+    width: auto;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top: 0.5rem solid #bb9a91;
+    border-bottom: 0.5rem solid #bb9a91;
+}
+
+
+/* Buttons */
+
+.btn-primary {
+    background-color: #3c6360;
+}
+
+.btn-light {
+    color: #1e221a;
+    background-color: #d0aca2;
+    padding: 1em;
+    margin: 1em 0;
+/*    text-transform: unset;*/
+}
+
+.btn-light:hover {
+    background-color: #7c6761;
+}
+
+
+
+/* Offerings */
+
+.offering-block + .offering-block {
+    padding-top:  2em;
+}
+
+@media only screen and (min-width: 992px) { 
+    .offering-block + .offering-block {
+        padding-top:  inherit;
+    }
 }
 
 
 /* About */
 
+.about-section {
+  padding: 2rem 0 0;
+}
+
+.about-section h3 {
+    font-size: 1.5rem;
+    padding-left: 1.25em;
+}
+
+.about-section ul {
+    padding-left: 15px;
+}
+
 .about-section .project, .about-section .profile-photo {
-    background-color: #c9dedd;
+    background-color: inherit;
 }
-.about-section a {
-    color: #5b415c;
-}
-.about-section a:hover, .about-section a:focus {
-    color: #6b546c;
+
+.about-section .project .text-wrapper hr {
+    border-color: #3d4435;
 }
 
 .about-section .profile-photo img {
-  -o-object-fit: unset;
-  object-fit: unset;
-  min-height: unset;
+    -o-object-fit: unset;
+    object-fit: unset;
+    min-height: unset;
 }
 
+.about-section .project .text-wrapper {
+  padding-bottom: 0;
+  padding-top: 0;
+
+}
+
+
+/* Newsletter */
 
 /* MailChimp Form Embed Code - Horizontal Super Slim - 12/16/2015 v10.7
 Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
@@ -81,30 +282,77 @@ Adapted from: http://blog.heyimcat.com/universal-signup-form/ */
 }
 
 
-/* Newsletter */
+/* Contact Section */
+
+.contact-section {
+    background: linear-gradient(to bottom,rgba(226,205,199,100%) 0,rgba(61,68,53,.5) 75%,#3d4435 100%),url(../img/Matthesian-State-Park-cropped.jpg);
+}
 
 .card {
-    background-color: rgba(255,255,255,0.9);
+    background-color: rgba(255,255,255,0.7);
 }
 .card.newsletter {
     margin-bottom: 1.2em;
 }
-.newsletter p {
-    font-size: 80%;
-}
 #mc_embed_signup label {
+    color: #000;
     font-size: 1.3rem;
     font-family: Philosopher,sans-serif;
     padding-bottom: 0px;
     margin-bottom: 0px;
     font-weight: unset;
 }
+
 #mc_embed_signup .button {
-    background-color: #3c6360;
+    background-color: #3d4435;
 }
 .contact-section .card h4 {
     font-size: .9rem;
 }
 
+.contact-section .card hr {
+  border-color: #3d4435;
+}
+
+.contact-section .card {
+  border-bottom: .25rem solid #bb9a91;
+}
+
+.card-body p {
+    color: #3d4435;
+}
+
+.fab, .fas {
+  color: #3d4435 !important;
+}
+
+
+/* Footer */
+
+.footer-links a {
+    color: white;
+}
+
+.footer-links a:hover, .footer-links a:focus {
+    color: #c2c8cc;
+    text-decoration:  none;
+}
+
+/* Insta Page */
+
+body.insta h2 {
+    font-size: 1.3rem;
+    font-family: Philosopher,sans-serif;
+    padding: 0.5em 0;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body.insta img {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 
