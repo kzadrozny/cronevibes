@@ -138,6 +138,12 @@ section + section {
 }
 
 section hr {
+    border-color:#e2cdc7;
+    border-width: .05rem;
+    width: 100%;
+}
+
+section.light hr {
   border-color: #3d4435;
   border-width: .25rem;
   width: 30%;
