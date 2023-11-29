@@ -119,9 +119,21 @@ ul.plain-list {
 }
 
 .highlight {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    color: #dec4bd;
 }
 
+section.light .highlight {
+    color: #3d4435;
+}
+
+p.subhead {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 0.5rem;
+}
 
 
 /* Sections */
